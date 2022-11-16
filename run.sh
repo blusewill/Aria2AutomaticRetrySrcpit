@@ -23,11 +23,3 @@ echo "Download Started"
 
 Download=aria2c\ -x$threads\ $link\ -d\ $location
 $Download
-
-if [[ -f $location*.aria2 ]]
-then
-      $Download
-fi
-echo "Download Complete : D"
-echo "Script made by blusewill"
-echo "Website : blusewill.ml"
